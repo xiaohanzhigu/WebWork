@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>enroll</title>
+    <link rel="stylesheet" type="text/css" href="css/Enroll.css">
+</head>
+
+<body background="img/login.jpg">
+<form action="login.html">
+    <div class="container">
+        <div class="tit">注册</div>
+        <input type="text" placeholder="账号" pattern=".{3,5}" title="用户名限制3至5个字符" class="input">
+        <input type="password" placeholder="密码" pattern=".{11}" title="密码必须为11位" class="input">
+        <input type="password" placeholder="确认密码" pattern=".{11}" title="密码必须为11位" class="input">
+        <input type="text" placeholder="电子邮箱" pattern="^[A-Za-z\d]+([-_.][A-Za-z\d]+)*@([A-Za-z\d]+[-.])+[A-Za-z\d]{2,4}$" title="格式不正确" class="input">
+        <input type="text" placeholder="手机号码" pattern="^1[3|4|5|7|8][0-9]{9}$" class="input">
+        <a href="login.html">
+            <button>注册</button>
+        </a>
+        <span>已有账号?<a href="login.html">去登录</a></span>
+    </div>
+</form>
+</body>
+
+</html>
